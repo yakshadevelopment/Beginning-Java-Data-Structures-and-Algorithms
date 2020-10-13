@@ -1,0 +1,28 @@
+<test-cases>
+	<cases xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Functional</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testFindPattern</name>
+		<weight>10</weight>
+		<mandatory>true</mandatory>
+		<desc>Test to find pattern using BoyerMoore algo Implementation</desc>
+	</cases>
+
+	<cases xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Exception</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testExceptionConditon</name>
+		<weight>10</weight>
+		<mandatory>true</mandatory>
+		<desc>Test to Exception Conditon</desc>
+	</cases>
+
+	<cases xsi:type="java:com.assessment.data.TestCase">
+		<test-case-type>Boundry</test-case-type>
+		<expected-ouput>true</expected-ouput>
+		<name>testBoundaryCondition</name>
+		<weight>10</weight>
+		<mandatory>true</mandatory>
+		<desc>Test to Boundry Condition</desc>
+	</cases>
+</test-cases>
